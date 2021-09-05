@@ -8,7 +8,6 @@
 
         .case{
             background-color: $white;
-
           //  position: relative;
           //  background: $black;
           //  cursor: pointer;
@@ -63,10 +62,10 @@
                 //  overflow: hidden;
                 //  position: absolute;
                 //  opacity: 0.65;
-                    transition: .4s cubic-bezier(.6,-.05,.1,.99);
+                transition: .4s cubic-bezier(.6,-.05,.1,.99);
                 img{
                 //    height: 50%;
-                    width: 60%;
+                    width: 100%;
                 //  object-fit: cover;
                 }
             }
