@@ -1,0 +1,30 @@
+.main{
+    height: 55vh; //fallback option
+    height: calc(var(--vh,1vh)*55);
+    background-color: $white;
+    .row{
+        flex-direction: column;
+        justify-content: center;
+        h2{
+            z-index: 10;
+            font-size: 30px;
+            line-height: 2rem;
+            font-weight: 55;
+            text-align: justify;
+            color: $black;
+            text-transform: uppercase;
+            margin-bottom: 18%;
+            @include media("<=tablet"){
+                font-size: 2.4rem;
+                line-height: 3rem;
+                margin-bottom: 25%;
+            }
+            @include media ("<=phone"){
+                margin-top: 72px;
+                font-size: 1.7rem;
+                line-height: 2.2rem;
+            }
+            
+        }
+    }
+}
